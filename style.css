@@ -131,26 +131,26 @@ h2{
 @keyframes change {
     0%
     {
-        background-image: url(2 (1).jpg.);
+        background-image: url(./2\ \(2\).jpg);
     }
     20%
     {
-        background-image: url(2 (1).webp);
+        background-image: url(./2\ \(1\).webp);
     }
     40%
     {
-        background-image: url(2 (2).jpg);
+        background-image: url(./2\ \(1\).jpg);
     }
     60%
     {
-         background-image: url(2 (1).jpg.);
+        background-image: url(./2\ \(2\).jpg);
     }
     80%
     {
-         background-image: url(2 (1).webp);
+        background-image: url(./2\ \(1\).webp);
     }
     100%
     {
-         background-image: url(2 (2).jpg);
+        background-image: url(./2\ \(1\).jpg);
     }
 }
