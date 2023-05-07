@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) , url(sTXNDE.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    animation:change 10s infinite ease-in-out;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin-top: auto;
+    margin-left: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.pic{
+    margin: auto;
+    width: 103px;
+    height: 101px;
+    position: absolute;
+    left: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    top: 12px;
+    left: 1200px;
+    float: left;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: absolute;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: rgb(137, 151, 7);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 250px;
+}
+.form{
+    width: 400px;
+    height: 170px;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+.box
+{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 300px;
+    height: 210px;
+    background-color: rgba(202, 190, 15, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    transition: 0.4s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+}
+.form input:hover{
+   box-shadow:  2px 2px 4px #000000;
+   
+   
+}
+.navbox{
+    position: absolute;
+    top: -3px;
+    right: 5px;
+    width: 1678px;
+    height: 70px;
+    background-color: black;
+    padding: 20px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    left: 270px;
+    top: x;
+    position:absolute;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    top: 200px;
+    left: 600px;
+    position: absolute;
+    color: white;
+    width: 400px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+@keyframes change {
+    0%
+    {
+        background-image: url(/2\ \(2\).jpg);
+    }
+    20%
+    {
+        background-image: url(/2\ \(1\).webp);
+    }
+    40%
+    {
+        background-image: url(/2\ \(1\).jpg);
+    }
+    60%
+    {
+        background-image: url(/2\ \(2\).jpg);
+    }
+    80%
+    {
+        background-image: url(/2\ \(1\).webp);
+    }
+    100%
+    {
+        background-image: url(/2\ \(1\).jpg);
+    }
+}
