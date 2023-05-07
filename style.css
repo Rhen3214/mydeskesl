@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) , url(.jpg);
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) , url(1pic.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -131,26 +131,26 @@ h2{
 @keyframes change {
     0%
     {
-        background-image: url(/2\ \(2\).jpg);
+        background-image: url(4pic.webp);
     }
     20%
     {
-        background-image: url(/2\ \(1\).webp);
+        background-image: url(2pic.jpg);
     }
     40%
     {
-        background-image: url(/2\ \(1\).jpg);
+        background-image: url(3pic.jpg);
     }
     60%
     {
-        background-image: url(/2\ \(2\).jpg);
+        background-image: url(4pic.webp);
     }
     80%
     {
-        background-image: url(/2\ \(1\).webp);
+        background-image: url(2pic.jpg);
     }
     100%
     {
-        background-image: url(/2\ \(1\).jpg);
+        background-image: url(2pic.jpg);
     }
 }
