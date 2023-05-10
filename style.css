@@ -26,10 +26,11 @@
 }
 .pic{
     margin: auto;
-    width: 103px;
-    height: 101px;
+    width: 130px;
+    height: 120px;
     position: absolute;
-    left: 10px;
+    left: 18px;
+    top: 8px;
 }
 .menu{
     width: 400px;
@@ -37,8 +38,8 @@
     height: 70px;
 }
 ul{
-    top: 12px;
-    left: 900px;
+    top: -1px;
+    left: 870px;
     float: left;
     display: flex;
     justify-content:center ;
@@ -83,7 +84,7 @@ ul li a:hover{
     right: 50px;
     width: 300px;
     height: 210px;
-    background-color: rgba(202, 190, 15, 0.5);
+    background-color: rgba(255, 208, 0, 0.767);
     border-radius: 20px;
     padding: 20px;
 }
@@ -104,8 +105,8 @@ ul li a:hover{
     top: -3px;
     right: 5px;
     width: 1678px;
-    height: 70px;
-    background-color: black;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.514);
     padding: 20px;
 }
 .btn{
@@ -121,12 +122,14 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
 }
 .title{
-    top: 500px;
-    left: 100px;
+    top: 730px;
+    left: 30px;
     position: absolute;
     color: white;
     width: 400px ;
+    font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
+    
     
 }
 @keyframes change {
@@ -182,15 +185,21 @@ h2{
    }
    
 }
+.card{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
 .card1{
 height: 200px;
-width: 300px;
+width: 200px;
 left:500px;
 position:absolute;
 top: 150px;
 margin: 50px;
  box-shadow: 5px 5px 20px black;
 overflow: hidden;
+border-radius: 800px;
 }
 .cardtext1{
     top: 370px;
@@ -210,11 +219,20 @@ overflow: hidden;
     top: 150px;
     margin: 50px;
      box-shadow: 5px 5px 20px black;
-    overflow: hidden;
     transition: 0.4s ease-in-out;
     background-image:url(card1.jpg);
     background-size: cover;
 
+}
+.logobox{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    width: 110px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.767);
+    border-radius: 70px;
+    padding: 20px;
 }
 
 
