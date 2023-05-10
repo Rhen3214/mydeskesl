@@ -189,17 +189,19 @@ h2{
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    color: rgba(107, 98, 98, 0);
+    
 }
 .card1{
 height: 200px;
-width: 200px;
+width: 300px;
 left:500px;
 position:absolute;
 top: 150px;
 margin: 50px;
- box-shadow: 5px 5px 20px black;
-overflow: hidden;
-border-radius: 800px;
+box-shadow: 5px 5px 20px black;
+
+
 }
 .cardtext1{
     top: 370px;
@@ -219,9 +221,11 @@ border-radius: 800px;
     top: 150px;
     margin: 50px;
      box-shadow: 5px 5px 20px black;
-    transition: 0.4s ease-in-out;
+    transition: 1.4s ease-in-out;
     background-image:url(card1.jpg);
     background-size: cover;
+    display: block;
+    color: rgb(0, 0, 0);
 
 }
 .logobox{
@@ -234,7 +238,24 @@ border-radius: 800px;
     border-radius: 70px;
     padding: 20px;
 }
+.cont1{
+    width: 100px;
+    height: 100px;
+    top: 500px;
+   
+}
+h1{
+  position: absolute;
+  display: block;
+  left: -40px;
+}
 
+.newtxt{
+    color: rgb(255, 255, 255);
+    top: 30px;
+    left: 0px;
+    
+}
 
 
 
