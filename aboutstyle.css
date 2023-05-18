@@ -142,3 +142,70 @@ img {
   .slide-3 {
     background-image: url(room3.jpg);
   }
+.footer-content{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+.socials{
+  display: flex;
+  height: 200px;
+  width: 300px;
+  left: 10px;
+  transition: ease-in-out 0.4s;
+ top: 10px;
+  
+}
+.FB{
+  width: 200px;
+  height: 70px;
+  transition: ease-in-out 0.4s;
+}
+.IG{
+  width: 200px;
+  height: 70px;
+  transition: ease-in-out 0.4s;
+}
+.TW{
+  width: 200px;
+  height: 70px;
+  transition: ease-in-out 0.4s;
+}
+.FB:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.IG:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.TW:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+.socmed{
+  text-indent: -920px;
+}
+.descript{
+  text-indent: 40%;
+  width: 900px;
+  color: rgb(216, 216, 216);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.numbers{
+  top: -7px;
+  left: 1060px;
+  width: 200px;
+  position: absolute;
+  color: rgb(233, 218, 12);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
