@@ -1,0 +1,127 @@
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #f1ee04;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 700px;
+    left: 550px;
+    top: 200px;
+    position: absolute;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .head{
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  .col-25{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .loc img{
+    max-width: none;
+    width: 20px;
+    top: 200px;
+    left: 30px;
+    position: absolute;
+  }
+  .loc p{
+    top: 70px;
+    left: 60px;
+    position: relative;
+  }
+  .phone{
+    top: 90px;
+    left: 60px;
+    position: relative;
+  }
+  .phone img{
+    width: 30px;
+    position: relative;
+    left: -43px;
+    top: 77px;
+    padding: 2px;
+  }
+  .email img{
+    width: 33px;
+    position: relative;
+    left: 15px;
+    top: 140px;
+    padding: 2px;
+  }
+  .email p{
+    left: 60px;
+    top: 78px;
+    position: relative;
+  }
+  .map{
+    position: relative;
+    top: 100px;
+    left: 20px;
+  }
+  .street{
+    position:absolute;
+    top:120px;
+    left: 700px;
+  }
+  .findus{
+    position: relative;
+    left: 800px;
+    top: 200px;
+  }

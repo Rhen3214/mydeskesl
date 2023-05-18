@@ -85,9 +85,17 @@ ul li a:hover{
     right: 180px;
     width: 300px;
     height: 210px;
-    background-color: rgba(255, 208, 0, 0.767);
     border-radius: 20px;
     padding: 20px;
+    background: hsla(43, 87%, 48%, 1);
+
+background: linear-gradient(315deg, hsla(43, 87%, 48%, 1) 60%, hsla(210, 4%, 9%, 1) 100%);
+
+background: -moz-linear-gradient(315deg, hsla(43, 87%, 48%, 1) 60%, hsla(210, 4%, 9%, 1) 100%);
+
+background: -webkit-linear-gradient(315deg, hsla(43, 87%, 48%, 1) 60%, hsla(210, 4%, 9%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E4A810", endColorstr="#161718", GradientType=1 );
 }
 .form input{
     width: 240px;
